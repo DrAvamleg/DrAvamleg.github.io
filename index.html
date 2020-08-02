@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+  </style>
+  <title>Проектная организация ТАЛАНТ</title>
+  <!-- Подключаем CSS -->
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
+  <link rel="stylesheet" href="libs/icomoon/style.css">
+  <link rel="stylesheet" href="libs/icomoon/style(2).css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <header>
+    <div class="header__body">
+    <a class="header-logo" href="#construction" > <i class="icon-real-estate"></i>Талант</a>
+    <div class="header__burger">
+      <span></span>
+    </div>
+    <nav class="header-menu">
+      <ul class="header-menu__list">
+        <li class="header-menu__item"><a class=" header-menu__link" href="#architecture">
+          <i class="icon-plans"></i>Архитектура</a>
+        </li>
+        <li class="header-menu__item"><a class=" header-menu__link" href="#engineering"><i
+              class="icon-radiators"></i>Инженерные<br>комуникации</a></li>
+        <li class="header-menu__item"><a class=" header-menu__link" href="#design">
+          <i class="icon-paint-roller"></i>Дизайн</a>
+        </li>
+        <li class="header-menu__item"><a class="header-menu__link" href="#estimates">
+        <i class="icon-house"></i>Сметы и<br>изыскания</a></li>
+        <li class="header-menu__item"><a class="header-menu__link" href="#footer"><i class="icon-hand-phones"></i>Контакты</a></li>
+      </ul>
+      <div class="header-contacts"><a class="header-menu__link" href="#footer"><i class="icon-hand-phones"></i>Контакты</a></div>
+    </nav>
+  </div>
+  </header>
+  <nav id="navigation">
+    <ul class="navigation__body">
+        <li>
+            <a href="#construction" data-number="1">
+                <span class="dot"></span>
+                <span class="label">Главная</span>
+            </a>
+        </li>
+        <li>
+            <a href="#architecture" data-number="2">
+                <span class="dot"></span>
+                <span class="label">Архитектура</span>
+            </a>
+        </li>
+        <li>
+            <a href="#engineering" data-number="3">
+                <span class="dot"></span>
+                <span class="label">Инженерные комуникации</span>
+            </a>
+        </li>
+        <li>
+            <a href="#design" data-number="4">
+                <span class="dot"></span>
+                <span class="label">Дизайн</span>
+            </a>
+        </li>
+        <li>
+            <a href="#estimates" data-number="5">
+                <span class="dot"></span>
+                <span class="label">Сметы и изыскания</span>
+            </a>
+        </li>
+        <li>
+            <a href="#footer" data-number="6">
+                <span class="dot"></span>
+                <span class="label">Контакты</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+  <div id="construction" class="section">
+    <div class="container">
+      <div class="construction__title-box">
+        <hi class="construction__title">Проектирование</hi>
+      </div>
+      <div class="construction__homes">
+        <div class="item__column">
+          <div class="item__image"><img class="item__image-home" src="img/frontpage/repairs.png"></div>
+          <div class="item__title">Капитальный ремонт</div>
+        </div>
+        <div class="item__column">
+          <div class="item__image"><img class="item__image-home" src="img/frontpage/redevelopment.png"></div>
+          <div class="item__title">Перепланировка квартир</div>
+        </div>
+        <div class="item__column">
+          <div class="item__image"><img class="item__image-home" src="img/frontpage/eco.png"></div>
+          <div class="item__title">Экология</div>
+        </div>
+        <div class="construction__row"><img class="construction-separator" src="img/frontpage/road.png"></div>
+        <div class="item__column">
+          <div class="item__image"><img class="item__image-home" src="img/frontpage/design.png"></div>
+          <div class="item__title">Разработка фасадов</div>
+        </div>
+        <div class="item__column">
+          <div class="item__image"><img class="item__image-home" src="img/frontpage/reconstruction.png"></div>
+          <div class="item__title">Реконструкция зданий</div>
+        </div>
+        <div class="item__column">
+          <div class="item__image"><img class="item__image-home" src="img/frontpage/new.png"></div>
+          <div class="item__title">Новое строительство</div>
+        </div>
+      </div>
+      <div class="arrow bounce"></div>
+    </div>
+  </div>
+  <div id="architecture"class="section">
+    <div class="container">
+      <div class="architecture__body">
+        <div class="architecture__image"><img class="architecture__item" src="img/architecture/2.png" alt=""></div>
+        <div class="architecture__text">
+          <p class="architecture__title">Архитектура</p>
+          <p>Комплексная разработка фасадов, дизайн-проектов жилых и
+            общественных интерьеров с использованием современных технологий и экологичных материалов.
+            Благоустройство
+            парков и скверов, дворовых территорий многоквартиных жилых домов, детских площадок, спортивных площадок,
+            территорий детских садов и школ, частных жилых домов.</p>
+          <p>Грамотное использование территории, функциональное разделение территории(зона парковки
+            автотранспорта, детские площадки, Элекменты бытового назначения) Эстетичный вид и рациональное
+            расположение.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="engineering"class="section">
+    <div class="container">
+      <div class="engineering_wrapper">
+      <p class="engineering__title">Инженерные Коммуникации</p>
+      <div class="engineering__body">
+        <div class="engineering__column">
+          <div class="engineering__item"><img class="engineering__image" src="img/engineering/1.png" alt=""></div>
+          <div class="engineering__item-title">Отопление</div>
+          <p class="engineering__subtitle">Специалисты теплотехники подберут эффективные системы отопления.</p>
+          <p class="engineering__item-text">
+            - Мощность и тип отопительных приборов будут выбраны оптимально, с учетом существующих материалов здания, 
+            толщин стен, его общей площади, наличия панорамного остекления и теплых полов.<br>- Индивидуальный
+            подход к
+            огранизации отопления в каждом из помещений.</p>
+        </div>
+        <div class="engineering__column">
+          <div class="engineering__item"><img class="engineering__image" src="img/engineering/2.png" alt=""></div>
+          <div class="engineering__item-title">Вентиляция</div>
+          <p class="engineering__subtitle">Разрабатываемые нами системы вентиляции решают задачи:</p>
+          <p class="engineering__item-text">
+            - Регулирования микроклимата в здании (оптимизация температуры воздуха по помещениям, очистка
+            воздуха). <br>- Сокращение затрат на отопление здания в
+            холодный период года на величину от 12% до 50% за счет рекуперации.<br>-Cовременное вентиляционное оборудование создаст комфортные условия для дома и
+            офиса.</p>
+        </div>
+        <div class="engineering__column">
+          <div class="engineering__item"><img class="engineering__image" src="img/engineering/3.png" alt=""></div>
+          <div class="engineering__item-title">Электроснабжение</div>
+          <p class="engineering__subtitle">Мы используем передовой опыт и применяем современные
+            технологии.</p>
+          <p class="engineering__item-text">
+            - Электрическое освещение (внутреннее).<br>- Силовое электрооборудование.<br>-
+            Слаботочные
+            сети (радиовещания, телевидения, телефонные, домофонные).<br>- Электроснабжение (воздушные и кабельные линии
+            0.4кВ, 6/10
+            кВ).<br>- Наружное освещение<br>- Наружные телефонные сети.<br>- Молниезащита.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div id="design"class="section">
+    <div class="container">
+      <div class="design__title">Дизайн</div>
+      <div class="design__content-box">
+        <div class="design__subtitle-box">
+          <div class="design__subtitle">Комплексная разработка дизайна помещений и фасадов в едином стиле под тщательным авторским надзором.
+            Гармоничное заполнение пространств и подбор соответствующих отделочных материалов.</div>
+        </div>
+        <div class="design__item"><img class="design__item-img" src="img/design/1.png"></div>
+      </div>
+    </div>
+  </div>
+  <div id="estimates"class="section">
+    <div class="container">
+      <div class="estimates__content">
+        <div class="estimates__content-box">
+          <div class="estimates__item"><img class="estimates__img" src="img/estimates/1.png"></div>
+          <div class="estimates__subtitle">Сметы</div>
+          <div class="estimates__text">Инженеры-сметчики разработают весь комплекс проектно-сметных работ и услуг для разноплановых
+          строительных,  монтажных, ремонтных, инженерно-изыскательских работ в <br><span class="bold">Гранд-смете</span> в соответствии с существующими нормативами.</div>
+        </div>
+        <div class="estimates__content-box">
+          <div class="estimates__item"><img class="estimates__img" src="img/estimates/2.png"></div>
+          <div class="estimates__subtitle">Изыскания</div>
+          <div class="estimates__text">Мы проведем весь комплекс инженерно-изыскательных работ с целью определения
+            наиболее экономически выгодных, для Вас,
+            точек присоединения к существующим инженерным коммуникациям или необходимости строительства автономных
+            установок.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer"class="section">
+    <div class="footer__contact">
+      <p class="info__adress">г. Абакан, ул. Советская-75, офис 317A<br>Понедельник-пятница с 9-00 до 18-00</p>
+      <ul class="info__contact-box">
+        <li class="info__item"><div class="info-icon"><i class="icon-phone"></i>+7 (3902) 24-16-17</div></li>
+        <li class="info__item"><div class="info-icon"><i class="icon-mail4"></i> ooo_talant@bk.ru</div></li>
+        <li class="info__item"><div class="info-icon"><i class="icon-skype"></i> ooo_talant</div></li>
+      </ul>
+    </div>
+    <div class="footer__accord">
+      <div class="footer__block-1">
+        <input class="footer__input" type="checkbox"
+                  id="input__name-1">
+          <label class ="footer__title" for="input__name-1">Документация</label>
+  
+          <div class="footer__content">
+              <p class="info__doks">Общество с ограниченной ответственностью «Талант»<br>Юридический адрес: 655017,
+                  Республика Хакасия,
+                  г. Абакан, ул.
+                  Советская, д.75 офис 317А<br>Почтовый адрес: 655017, Республика Хакасия, г. Абакан, ул. Советская, д.75
+                  офис
+                  317А<br>
+                  ОГРН 1121901000253<br>ИНН/КПП 1901105628 / 190101001<br>Наименование банка: ООО «Хакасский муниципальный
+                  банк»
+                  655017,
+                  Республика Хакасия, г. Абакан, ул. Хакасская, д. 73<br>ОГРН 1021900002563<br>ИНН/КПП 1901036580 /
+                  190101001<br>
+                  Директор:
+                  Тачеева Анна Николаевна<br>ОКПО 30364627<br>ОКВЭД 74.2<br>к/с 30101810900000000745<br>БИК
+                  049514745<br>р/с
+                  40702810100010155120
+              </p>
+          </div>
+      </div>
+      <div class="footer__block-2">
+        <input class="footer__input" type="checkbox" id="input__name-2">
+        <label class="footer__title" for="input__name-2">Карта</label>
+        <div class="footer__content">
+        <div class="map-box"><img class="map"src="img/footer/карта.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+      
+  </div>
+</body>
+</html>

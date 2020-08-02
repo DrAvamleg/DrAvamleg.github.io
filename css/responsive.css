@@ -1,0 +1,247 @@
+@media screen and (max-width: 892px) {
+ body.lock{
+   overflow: hidden;
+ }
+.header-logo{
+  display: block;
+
+}
+  .header__burger{
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  z-index: 3;
+}
+.header__burger span{
+  background-color: #ffffff;
+position: absolute;
+width: 100%;
+height: 2px;
+top: 9px;
+transition: all 0.3s ease 0s;
+}
+.header__burger:before, 
+.header__burger:after{
+content: '';
+background-color: #ffffff;
+position: absolute;
+width: 100%;
+height: 2px;
+left: 0px;
+transition: all 0.3s ease 0s;
+}
+
+.header__burger:before{
+  top: 0px;
+}
+
+.header__burger:after{
+  bottom:0px;
+}
+
+.header__burger.active span{
+  transform: scale(0);
+  }
+
+.header__burger.active:before{
+transform: rotate(45deg);
+top: 9px;
+}
+
+.header__burger.active:after{
+  transform: rotate(-45deg);
+  bottom: 9px;
+  }
+
+.header-menu{
+  position: fixed;
+  top: -110%;
+  left: -15px;
+  width: 100%;
+  height: 100%;
+  background-color: #161515;
+  transition: all 0.3s ease 0s;
+  padding: 80px 0px 0px 0px;
+}
+
+
+.header-menu__item:last-child{
+  display: block;
+}
+
+.header-contacts{
+  display: none;
+}
+
+.header-menu.active{
+  top: 0;
+}
+
+.header__body{
+  height: 70px;
+}
+
+.header-menu__list{
+  display: block;
+}
+.header-menu__list{
+  font-size: 24px;
+}
+.header-menu__list li{
+  margin: 0px 0px 30px 45px;
+}
+
+.construction__row {
+        display: none;
+}
+#navigation{
+  display: none;
+}
+#construction{
+  background-size:auto 100%;
+}   
+.construction__title-box {
+  text-align: center;
+}
+.construction__homes
+{
+    justify-content: space-around;
+}
+.architecture__image{
+    display: none;
+}
+.architecture__text{
+    background-image: linear-gradient(rgba(246,246,246, 0.6), rgba(246,246,246, 0.6)), url('../img/architecture/2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.design__content-box {
+    justify-content: center;
+}
+#design {
+    justify-content: center;
+}
+.design__subtitle-box {
+display: flex;
+align-self: center;
+
+}
+.design__item {
+display: flex;
+justify-content:center;
+max-width: 100%;
+margin:30px;
+min-width:30%;
+
+}
+
+.design__item-img{
+display:flex;
+align-self: center;
+max-width: 70%;
+min-width: 50%;
+
+}
+.engineering__body{
+    justify-content: center;
+}
+.engineering__column{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+    margin: 20px 0;
+}
+
+}
+
+
+@media screen and (max-width: 1200px){
+
+    #footer {
+        display: flex;
+        flex-direction: raw;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+      
+        padding: 0 30px;
+        background-color: #EFEEEE ;
+      }
+    
+      .footer__accord{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+      }
+      .footer__block {
+        margin: 10px 70px;
+        border-bottom: 2px solid #d1d1d1;
+        transition: .4s ease-out;
+        border-radius: 10px;
+        
+      }
+    
+      .footer__title {
+        display:block;
+        width: 400px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #000000;
+        cursor: pointer;
+        padding:10px;
+    
+        
+        
+        transition:.4s ease-out;
+      }
+    
+    
+      .footer__title:hover {
+        display:block ;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #000000;
+        cursor: pointer;
+        padding:10px;
+    
+        
+        border-radius: 10px;
+        background-color: #d1d1d1;
+      }
+    
+    
+      .footer__input {
+        appearance: none;
+        position: absolute;
+        transition:.4s ease-out;
+      }
+    
+      .footer__content {
+        display: none;
+        transition:.4s ease-out;
+        
+      }
+    
+      .footer__input:checked ~.footer__content{
+        display: block;
+      }
+    
+      .info__doks {
+        display: flex;
+    max-width: 400px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    
+    line-height: 20px;
+    
+    color: #000000;
+    transition:.4s ease-out;
+      }
+
+}
+
+
